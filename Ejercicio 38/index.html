@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+
+    <link href="jquery.fancybox.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title> Formulario
+    </title>
+
+
+    <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
+   
+
+   
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    
+    <form id ="registro" class="cmxform">
+        <ul>
+            <li>
+                <label for="nombre">Nombre del artículo:</label>
+                <input class = "form-control" type="text" id="nombre" name ="nombre" pattern="(^[A-z0-9À-ž\s]+$)" maxlength="25" required />
+            </li>
+            <li>
+                <label for="marca">Marca:</label>
+                <input class = "form-control" type="text" name ="marca" id="marca" maxlength="30" minlength="5" required />
+            </li>
+            <li>
+                <label for="modelo">Modelo:</label>
+                <input class = "form-control" type="text" id="modelo" name ="modelo" />
+            </li>
+            <li>
+                <label for="stock">Stock:</label>
+                <input class = "form-control" type="number" id="stock" min="1" max="1000" name ="stock" required />
+
+            </li>
+
+            <li> <select id="estado" class = "form-control" name ="estado" > Estado:
+
+                    <option value="bueno"> Bueno </option>
+                    <option value="regular"> Regular </option>
+                    <option value="malo"> Malo</option>
+     
+
+                </select>
+            </li>
+
+            <li>
+                <label for="color">Color:</label>
+                <input class = "form-control" type="text" id="color" pattern="^[A-Za-z]+$" name ="color"/>
+
+            </li>
+
+
+            <li id="boton">
+                <button type="submit" >Procesar</button>
+            </li>
+
+        </ul>
+
+    </form>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

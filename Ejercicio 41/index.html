@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <title> jugando jquery ui
+    </title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="http://resources/demos/style.css">
+    <link rel="stylesheet" href="slidebars.css">
+    <link rel="stylesheet" href="stye.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Profesor Rossa</h1>
+    </header>
+
+    <div class="contenedor"> 
+        
+        <img src="lujo.jpg">
+        
+        <br> 
+
+        <button class="js-toggle-left-slidebar boton">menú</button>
+    </div>
+
+
+    <div off-canvas="slidebar-1 left reveal" class="menu">
+
+        <ul>
+            <li> <a href="javascript:ventana('https://es.wikipedia.org/wiki/El_mundo_del_profesor_Rossa')"> Wiki</a>
+            </li>
+
+            <li> <a
+                    href="javascript:ventana('https://www.13.cl/rec/programa/el-mundo-del-profesor-rossa-1990')">Programa</a>
+            </li>
+
+            <li> <a href="javascript:ventana('https://www.youtube.com/watch?v=ZJU-jg_Lk8U')">Bailes</a></li>
+        </ul>
+
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="slidebars.js"></script>
+
+<script src="app.js"></script>
+
+
+</html>

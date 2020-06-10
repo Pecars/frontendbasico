@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Módulo 3 – Ejercicios clase día 2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            background-color: white;
+            font-family: Verdana;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1> Ingresa datos</h1>
+    <table>
+        <form action="resultados.html" method="GET">
+            <tr>
+                <td> <label>Nombre</label></td>
+                <td><input name="Nombre" type ="text" placeholder="Pepito" required></td>
+            </tr>
+            <tr>
+                <td><label>Apellido</label></td>
+                <td> <input name="Apellido" type ="text" placeholder="Pérez" required></td>
+            </tr>
+            <tr>
+                <td><label>Edad</label></td>
+                <td> <input name="Edad" type = "number" placeholder="18" required min="18" max="120"></td>
+            </tr>
+            <tr>
+                <td><label>Estado Civil</label></td>
+                <td> <select name="Estado Civil">
+                        <option value="casado"> Casada/o</option>
+                        <option value="viudo">Viuda/o</option>
+                        <option value="soltero" selected>Soltera/o</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Sexo</label></td>
+                <td> <select name="Sexo">
+                        <option value="mujer"> Mujer</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="otro" selected>Otro</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Medio de Transporte</label></td>
+                <td> <select name="Medio de Transporte">
+                        <option value=" Automóvil"> Automóvil</option>
+                        <option value=" Metro">Metro</option>
+                        <option value=" Micro" selected>Micro</option>
+                        <option value=" Taxi">Taxi</option>
+                        <option value=" Otro">Moto</option>
+                    </select> </td>
+            </tr>
+
+            <tr> <td><button type ="reset">Limpiar datos</button></td>
+                <td><button type ="submit">Carga datos</button></td>
+                </tr>
+
+        </form>
+    </table>
+
+</body>
+
+</html>

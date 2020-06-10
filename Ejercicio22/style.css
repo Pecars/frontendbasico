@@ -1,0 +1,38 @@
+body{
+
+background-color: aquamarine;
+
+}
+
+.casilla{
+
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border: solid 2px rgb(41, 14, 66);
+}
+
+.habilitado{
+
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border: solid 2px rgb(41, 14, 66);
+}
+
+#c16{
+    border: solid 2px;
+    background-color: rgb(41, 14, 66);
+}
+
+#c10{
+    border: solid 2px;
+    background-color: rgb(41, 14, 66);
+
+
+}
+
+.antidesborde{
+
+    display: none;
+}

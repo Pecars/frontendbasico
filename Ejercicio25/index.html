@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!--  <link href="style.css" rel="stylesheet"> -->
+    <title>conversor de divisas
+    </title>
+
+</head>
+
+<body>
+
+    <div>
+        <h1>Conversor de Divisas</h1>
+    </div>
+
+    <p> Este ejercicio tiene por objetivo generar un conversor de divisas
+    </p>
+
+
+
+    <div>
+        <p>
+        <div> Escoja las divisas a las que desea convertir
+        </div>
+        <label><input id="dolar" type="radio" value=""> Dólar </label> <br>
+        <label> <input id="euro" type="radio" value=""> Euro</label> <br>
+        <label> <input id="yen" type="radio" value=""> Yen</label> <br>
+        <label> <input id="libra" type="radio" value=""> Libra Esterlina</label> <br>
+        <label> <input id="yuan" type="radio" value=""> Yuan</label></p> 
+    </div>
+
+
+    <input class="input" type="number" id="dinero-ingresado" placeholder="Ingrese dinero en pesos chilenos" min="1">
+    <button class="button" type="button" onclick="convertir()"> Convertir</button>
+
+
+    <div class="output" id="output"> Su equivalente es:
+    </div>
+
+
+    <div id="contenedor-error"> Contenedor de mensajes de error
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

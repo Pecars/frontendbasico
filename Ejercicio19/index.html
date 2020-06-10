@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="style.css" rel="stylesheet">
+    <title>sumas
+    </title>
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="tablero">
+
+        <div class="pantalla" id ="pantalla">hola</div>
+
+        <div class = "contenedor">
+            <div class="numeros">
+                <div class="numeros-child-a">
+                    <div class="numeros-child-2" value= "7" id="siete" onclick= "numero('7')">7</div>
+                    <div class="numeros-child-2" value ="8" id="ocho"  onclick= "numero('8')">8</div>
+                    <div class="numeros-child-2" value ="9" id="nueve"  onclick= "numero('9')">9</div>
+                </div>
+                <div class="numeros-child-b">
+                    <div class="numeros-child-2" id="4"  value= "4" onclick= "numero('4')">4</div>
+                    <div class="numeros-child-2" id="5"  value= "5" onclick= "numero('5')">5</div>
+                    <div class="numeros-child-2" id="6"  value= "6" onclick= "numero('6')">6</div>
+                </div>
+                <div class="numeros-child-c">
+                    <div class="numeros-child-2" id="1" value= "1" onclick= "numero('1')">1</div>
+                    <div class="numeros-child-2" id="2" value= "2" onclick= "numero('2')">2</div>
+                    <div class="numeros-child-2" id="3" value= "3" onclick= "numero('3')">3</div>
+                </div>
+                <div class="numeros-child-d">
+                    <div class="numeros-child-2" id="reset" onclick="reset()">C</div>
+                    <div class="numeros-child-2" value= "0" id="0" onclick= "numero('0')">0</div>
+                    <div class="numeros-child-2" id="igual" onclick= "igualar()">=</div>
+                </div>
+            </div>
+
+            <div class="operaciones">
+                <div class="operador" id="suma" onclick="sumar()">+</div>
+
+                <div class="operador" id="resta" onclick="restar()">-</div>
+
+                <div class="operador" id="multiplicacion" onclick="multiplicar()">*</div>
+                <div class="operador" id="division" onclick="dividir()">:</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

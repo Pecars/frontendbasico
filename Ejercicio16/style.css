@@ -1,0 +1,348 @@
+@font-face{
+    font-family: "redalert";
+    src: url( "redalert/C&C\ Red\ Alert\ [LAN].ttf");
+    }
+
+@font-face{
+    font-family: "hacker";
+    src: url( "garoa_hacker_clube/GaroaHackerClubeBold.otf");
+    }
+
+
+*{
+
+    font-family: "redalert";
+}
+
+h1{
+    font-family: "hacker";
+    margin: 5px;
+}
+
+@media (max-width: 600px){
+    
+
+    .cabecera{
+
+        height: 8%;
+        width: 94%;
+        text-align: left;
+        padding: 1%;
+        margin:3%;
+        background-color: rgb(159, 159, 170);
+        border-radius: 5px;
+        align-self: center;
+        
+    }
+
+    .titulo{
+        font-size: 4vw;
+        margin: 2%;
+        color: aliceblue;
+        font-size: 40px;
+        font-family: "hacker";
+
+    }
+
+    .subtitulo{
+
+        font-size: 2vw;
+        margin: 2%;
+        font-size: 30px;
+
+    }
+
+
+    img{
+
+        border-radius: 10%;
+        max-width:92%;
+        margin: 4%;
+        height: auto;
+    }
+
+    .caja-1{
+
+        width: 92%;
+        margin: 3%;
+        background-color: rgb(159, 159, 170);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(33, 33, 34);
+        padding: 2%;
+
+    }
+
+    .caja-2{
+
+        width: 92%;
+        margin: 3%;
+        background-color: rgb(126, 126, 134);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(229, 229, 240);
+        padding: 2%;
+
+    }
+
+    .caja-3{
+
+        width: 92%;
+        margin: 3%;
+        background-color: rgb(90, 90, 95);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(198, 198, 206);
+        padding: 2%;
+
+    }
+
+    .caja-4{
+
+        width: 92%;
+        margin: 3%;
+        background-color: rgb(37, 37, 39);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(199, 199, 214);
+        padding: 2%;
+
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 799px){
+ 
+    
+    .cabecera{
+
+        height: 13%;
+        width: 94%;
+        text-align: left;
+        padding: 1%;
+        margin:3%;
+        background-color: rgb(159, 159, 170);
+        border-radius: 10px;
+        align-self: center;
+        
+    }
+
+    .titulo{
+        font-size: 5vw;
+        margin: 2%;
+        color: aliceblue;
+        font-family: "hacker";
+
+    }
+
+    .subtitulo{
+        font-size: 4vw;
+        margin: 2%;
+
+    }
+
+
+    img{
+
+        border-radius: 10%;
+        max-width:100%;
+        margin: 3%;
+        height: auto;
+       
+
+    }
+
+    .foto{
+
+        order:1;
+        width: 40%;
+        margin: 3%;
+        padding: 2%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .caja-1{
+
+        width: 40%;
+        margin: 3%;
+        background-color: rgb(159, 159, 170);;
+        border-radius: 5px;
+        height: auto;
+        color:  rgb(33, 33, 34);
+        padding: 2%;
+        order: 3;
+
+
+    }
+
+    .caja-2{
+
+        width: 40%;
+        margin: 3%;
+        background-color: rgb(126, 126, 134);;
+        border-radius: 5px;
+        height: auto;
+        color: rgb(229, 229, 240);
+        padding: 2%;
+        order:2;
+
+
+    }
+
+
+    .caja-3{
+
+        width: 40%;
+        margin: 3%;
+        background-color: rgb(90, 90, 95);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(198, 198, 206);
+        padding: 2%;
+        order:4;
+    }
+
+
+    .caja-4{
+
+        width: 92%;
+        margin: 3%;
+        background-color: rgb(37, 37, 39);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(199, 199, 214);
+        padding: 1%;
+        vertical-align: middle;
+        float: bottom;
+
+
+    }
+
+
+    .contenedor{
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+}
+
+@media (min-width: 800px){
+
+        
+    .cabecera{
+
+        height: 90px;
+        width: 94%;
+        text-align: left;
+        padding: 0%;
+        margin:3%;
+        background-color: rgb(159, 159, 170);
+        border-radius: 10px;
+        align-self: center;
+        text-align: center;
+        vertical-align: middle;
+        
+    }
+
+    .titulo{
+        font-size: 30px;
+        margin: 1% 0% 1% 0%;
+        color: aliceblue;
+        font-family: "hacker";
+
+
+    }
+
+    .subtitulo{
+        font-size: 25px;
+        margin: 1% 0% 1% 0%;
+
+    }
+
+    img{
+
+        border-radius: 10%;
+        max-width:20%;
+        margin: 1%;
+        height: auto;
+        display: block;
+        float: left;
+
+    }
+
+
+    .caja-1{
+
+        width: 20%;
+        margin: 1%;
+        padding: 2%;
+        background-color: rgb(159, 159, 170);;
+        border-radius: 5px;
+        height: auto;
+        color:  rgb(33, 33, 34);
+        display: block;
+        float: left;
+
+
+    }
+
+    .caja-2{
+
+        width: 20%;
+        margin: 1%;
+        background-color: rgb(126, 126, 134);;
+        border-radius: 5px;
+        height: auto;
+        color: rgb(229, 229, 240);
+        padding: 2%;
+        display: block;
+        float: left;
+
+
+    }
+
+
+    .caja-3{
+
+        width: 20%;
+        margin: 1%;
+        background-color: rgb(90, 90, 95);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(198, 198, 206);
+        padding: 2%;
+        display: block;
+        float: left;
+    }
+
+
+    .caja-4{
+
+        width: 94%;
+        margin: 3%;
+        background-color: rgb(37, 37, 39);
+        border-radius: 5px;
+        height: auto;
+        color: rgb(199, 199, 214);
+        padding: 1%;
+        vertical-align: middle;
+        float: bottom;
+
+
+    }
+
+
+
+
+    .contenedor{
+
+        display: table;
+
+    }
+
+    
+}

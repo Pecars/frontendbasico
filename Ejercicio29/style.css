@@ -1,0 +1,22 @@
+img{
+
+    width: 100%;
+}
+
+.contenedor-1{
+
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    width: 100%;
+}
+
+.contenedor-2{
+
+    display: block;
+    float: left;
+    justify-content: space-between;
+
+}

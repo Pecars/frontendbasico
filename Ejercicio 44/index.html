@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <title> gráficos
+    </title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tableexport@5.2.0/dist/css/tableexport.min.css">
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="https://unpkg.com/tableexport@5.2.0/dist/js/tableexport.min.js"></script>
+    <script src="filesaver.js"></script>
+
+
+    <script src="validador.js"></script>
+    <script src="app.js"></script>
+
+
+</head>
+
+
+<body>
+
+    <table id="tabla">Tabla
+        <tr>
+            <td>Nombre</td>
+            <td>Apellidos</td>
+            <td>Correo electrónico</td>
+            <td>Edad</td>
+            <td>Teléfono</td>
+        </tr>
+
+    </table>
+
+    <button> Exportar a xls</button>
+    <button> Exportar a csv</button>
+    <button> Exportar a txt</button>
+
+    <form id = "formulario">Formulario
+
+        <ul>
+            <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" pattern="^[A-Za-z0-9]*$" maxlength="30" required />
+            </li>
+            <li>
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" pattern="^[A-Za-z]*$" maxlength="50" required />
+            </li>
+            <li>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" maxlength="50" required />
+            </li>
+
+            <li>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" min="0" max="150" required />
+            </li>
+            <li>
+                <label for="telefono">Telefono: +56 </label>
+                <input type="tel" id="telefono" minlength="9" maxlength="9" placeholder="912345678"
+                    pattern="[0-9]{9}$" required />
+            </li>
+
+
+            <li class="button"> 
+                <button type="submit" id = "inserta">Añadir</button>
+            </li>
+        </ul>
+
+
+    </form>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <link href="style.css" rel="stylesheet">
+    <title>Gato
+    </title>
+
+
+</head>
+
+<body onload= "iniciaJuego()">
+
+    <h1> Juego del Gato </h1>
+
+    <div class= "turno" id ="turno">turno de O</div>
+    <div class= "gana" id ="gana">gana: </div>
+
+
+
+    <table>
+        <tr>
+            <td> <button class="boton" id = "b-1" onclick="juegaGato('b-1')" >-</button></td>
+            <td> <button class="boton" id = "b-2" onclick="juegaGato('b-2')">-</button></td>
+            <td> <button class="boton" id = "b-3" onclick="juegaGato('b-3')">-</button></td>
+        </tr>
+        <tr>
+            <td> <button class="boton" id = "b-4" onclick="juegaGato('b-4')">-</button></td>
+            <td> <button class="boton" id = "b-5" onclick="juegaGato('b-5')">-</button></td>
+            <td> <button class="boton" id = "b-6" onclick="juegaGato('b-6')">-</button></td>
+        </tr>
+        <tr>
+            <td> <button class="boton" id = "b-7" onclick="juegaGato('b-7')">-</button></td>
+            <td> <button class="boton" id = "b-8" onclick="juegaGato('b-8')">-</button></td>
+            <td> <button class="boton" id = "b-9" onclick="juegaGato('b-9')">-</button></td>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+#titulo{
+    padding: 0.5em; 
+    background-color: aquamarine;
+}
+
+.titulo{
+    display:flex;
+  }

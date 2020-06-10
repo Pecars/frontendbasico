@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="style.css" rel="stylesheet">
+    <title>listas
+    </title>
+
+</head>
+
+<body>
+
+    <div>
+        <h1>Ingrese elementos a la lista</h1>
+    </div>
+
+    <div class="contenedor-lista">
+        <div class="lista">
+            <ul id="lista-padre-uno"> lista 1
+
+            </ul>
+            <input id="lista-uno" type="radio" value="1">
+        </div>
+        <div class="lista">
+            <ol id="lista-padre-dos"> lista 2
+
+            </ol>
+            <input id="lista-dos" type="radio" value="2">
+
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <input class="input" type="text" id="texto-ingresado" placeholder="Ingresa texto">
+        <button class="button" type="button" onclick="ingresaElemento()"> Ingresar a la lista</button>
+
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

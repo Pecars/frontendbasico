@@ -1,0 +1,81 @@
+@font-face{
+    font-family: "maquina";
+    src: url("1942_report/1942.ttf");
+    }
+
+*{
+
+    font-family: "maquina";
+}
+
+.header{
+    margin: 80px;
+    padding: 20px;
+    font-size: 50px;
+    font-family: "maquina";
+    top:50px;
+}
+
+h1{
+    font-family: "maquina";
+    transform: rotate(20deg);
+}
+
+img{
+
+    width: 30%;
+    height: auto;
+    margin: 2%;
+    padding: 2%;
+}
+
+p{
+    font-size: 20px;
+    color: bisque;
+
+}
+
+footer{
+    background-color: #68277c;
+    transition-duration: 5s;
+    text-align: center;
+
+}
+
+.child-1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,24,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 23px 1px 24px 5px rgba(0,0,0,0.63);
+    margin: 2%;
+}
+
+.child-2{
+    
+    background: rgb(111,121,9);
+    background: linear-gradient(90deg, rgba(111,121,9,1) 35%, rgba(2,0,36,1) 60%, rgba(208,203,160,1) 100%);;
+    box-shadow: 23px 1px 24px 5px rgba(0,0,0,0.63);
+    margin: 2%;
+}
+    
+
+
+.child-3{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,115,1) 35%, rgba(214,0,255,1) 100%);
+    box-shadow: 23px 1px 24px 5px rgba(0,0,0,0.63); 
+    margin: 2%;
+
+}
+
+ .mapa{
+text-align: center;
+
+ }
+
+ .titulo-child{
+
+    font-size: 30px;
+    color: bisque;
+    text-shadow: 7px -1px 3px rgb(0, 0, 0);
+ }
+

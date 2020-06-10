@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title>formulario de contacto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+    
+    
+    </head>
+    
+<body>
+
+    <h1> Formulario de Contacto</h1>
+    <table>
+        <form action="resultados.html" method="GET">
+            <tr>
+                <td> <label>Nombre</label></td>
+                <td><input class="caja" name="Nombre" type ="text" placeholder="Pepito" required></td>
+            </tr>
+            <tr>
+                <td><label>Teléfono</label></td>
+                <td> <input class="caja" name="teléfono" type = "number" placeholder="912312934" maxlength="9"></td>
+            </tr>
+            <tr>
+                <td><label>Correo Electrónico</label></td>
+                <td> <input class="caja" name="email" type ="email" placeholder="pepe@pepe.cl" required></td>
+            </tr>
+
+            <tr>
+                <td><label>Región</label></td>
+                <td> <select class="caja" name="Región">
+                        <option value="Arica y Parinacota"> Arica y Parinacota</option>
+                        <option value="Tarapacá">Iquique</option>
+                        <option value="Antofagasta">Antofagasta</option>
+                        <option value="Atacama"> Atacama</option>
+                        <option value="Coquimbo">Coquimbo</option>
+                        <option value="Valparaíso">Valparaíso</option>
+                        <option value="Metropolitana"> Metropolitana</option>
+                        <option value="O'Higgins">O'Higgins</option>
+                        <option value="Maule">Maule</option>
+                        <option value="Ñuble">Ñuble</option>
+                        <option value="Bío-Bío">Bío-Bío</option>
+                        <option value="Araucanía">Araucanía</option>
+                        <option value="Los Ríos">Los Ríos</option>
+                        <option value="Los Lagos">Los Lagos</option>
+                        <option value="Aysén">Aysén</option>
+                        <option value="Magallanes">Magallanes</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Género</label></td>
+                <td> <select name="Sexo">
+                        <option value="mujer"> Mujer</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="otro" selected>Otro</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Mensaje</label></td>
+                <td> <input class ="mensaje" name="mensaje" placeholder="Acá su mensaje" required></td>
+            </tr>
+
+            <tr> <td><button class="boton" type ="reset">Limpiar datos</button></td>
+                <td><button class="boton" type ="submit">Enviar</button></td>
+                </tr>
+
+        </form>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+@font-face{
+
+    font-family: "calculadora";
+    src: url("calculator/Calculator.ttf")
+
+}
+
+@font-face{
+
+    font-family: "army";
+    src: url("airborne_86/Airborne\ 86.ttf")
+
+}
+
+
+
+.fondo{
+
+    background:url('ninhue.jpg') center center;
+    background-size: auto;
+}
+
+.contenedor-1{
+
+    border:20px solid rgba(0, 0, 0, 0.001);
+    display: flex;
+    flex-direction: column; 
+    width: 90%;
+    align-items: center;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+
+
+.titulo{
+
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    height: 15%;
+    width: 40%;
+    margin: 3%;
+    padding: 3%;
+    font-family: "army";
+
+}
+
+.contenedor-2{
+
+    border:20px ridge #345e24;
+    border-radius:50px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    background-color: white;
+    color: blue;
+
+
+}
+
+.contenedor{
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin:6%;
+    
+}
+
+#tiempoRestante{
+
+
+    font-family: "calculadora";
+    margin: 3%;
+    font-size: 40px;
+    font-weight: bold;
+
+}

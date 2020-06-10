@@ -1,0 +1,17 @@
+@font-face{
+
+    font-family: "latino";
+    src: url("mklatinoplain/MkLatinoPlain.ttf")
+
+}
+
+* {
+
+    font-family: "latino";
+}
+
+
+.titulo{
+
+    font-size: 80px;
+}
