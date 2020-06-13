@@ -1,0 +1,141 @@
+Microsoft Windows [Versión 10.0.18362.900]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Admin> cd desktop
+
+C:\Users\Admin\Desktop>cd contenidobootcamp
+
+C:\Users\Admin\Desktop\contenidobootcamp> cd Ejercicio 45
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\Admin\Desktop\contenidobootcamp>cd Módulo 3
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3>cd Ejercicio 45
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 801B-B1CD
+
+ Directorio de C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45
+
+12-06-2020  20:35    <DIR>          .
+12-06-2020  20:35    <DIR>          ..
+09-06-2020  22:02           138,891 Ejercicio 45.pdf
+12-06-2020  20:36    <DIR>          fullstackjava
+               1 archivos        138,891 bytes
+               3 dirs  914,311,036,928 bytes libres
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45> fullstackjava
+"fullstackjava" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45>cd fullstackjava
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava>fullstackjava
+"fullstackjava" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava>cd fullstackjava
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>md modulos
+
+
+C:\Users\Admin>cd desktop
+
+C:\Users\Admin\Desktop>cd contenidobootcamp
+
+C:\Users\Admin\Desktop\contenidobootcamp>cd Módulo 3
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3>Ejercicio 45
+"Ejercicio" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3>cd Ejercicio 45
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45>cd fullstackjava
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava>cd fullstackjava
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contenidos.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ejercicio1.txt
+        modulos/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git commit - m "agrega archivos"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'agrega archivos' did not match any file(s) known to git
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git commit -m "agrega archivos"
+[master ca34b9b] agrega archivos
+ 3 files changed, 229 insertions(+), 1 deletion(-)
+ create mode 100644 fullstackjava/ejercicio1.txt
+ create mode 100644 fullstackjava/modulos/modulo1.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git diff
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git commit -m "agregada la información del módulo 2"
+[master cd0e76e] agregada la información del módulo 2
+ 1 file changed, 2 insertions(+)
+ create mode 100644 fullstackjava/modulos/modulo2.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git commit - m "Añadido el material del módulo 3"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'Añadido el material del módulo 3' did not match any file(s) known to git
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git commit -m "Añadido el material del módulo 3"
+[master d0ec8c4] Añadido el material del módulo 3
+ 1 file changed, 2 insertions(+)
+ create mode 100644 fullstackjava/modulos/modulo3.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git commit -m "Temario del curso completo"
+[master d65abb4] Temario del curso completo
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 801B-B1CD
+
+ Directorio de C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava
+
+12-06-2020  23:11    <DIR>          .
+12-06-2020  23:11    <DIR>          ..
+12-06-2020  23:14               278 contenidos.txt
+12-06-2020  21:33             9,650 ejercicio1.txt
+12-06-2020  23:12    <DIR>          modulos
+               2 archivos          9,928 bytes
+               3 dirs  912,669,822,976 bytes libres
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>git diff
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>cd modulos
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git diff
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>

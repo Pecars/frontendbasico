@@ -1,0 +1,23 @@
+
+CUsersAdminDesktopcontenidobootcampMódulo 3Ejercicio 45cd fullstackjava
+
+CUsersAdminDesktopcontenidobootcampMódulo 3Ejercicio 45fullstackjavacd fullstackjava
+
+CUsersAdminDesktopcontenidobootcampMódulo 3Ejercicio 45fullstackjavafullstackjavagit add README.md
+fatal pathspec 'README.md' did not match any files
+
+CUsersAdminDesktopcontenidobootcampMódulo 3Ejercicio 45fullstackjavafullstackjavagit remote add origin httpsgithub.comPecarstesteo_git.git
+
+CUsersAdminDesktopcontenidobootcampMódulo 3Ejercicio 45fullstackjavafullstackjavagit push -u origin master
+Enumerating objects 40, done.
+Counting objects 100% (4040), done.
+Delta compression using up to 8 threads
+Compressing objects 100% (2929), done.
+Writing objects 100% (4040), 5.44 KiB  42.00 KiBs, done.
+Total 40 (delta 11), reused 0 (delta 0)
+remote Resolving deltas 100% (1111), done.
+To httpsgithub.comPecarstesteo_git.git
+  [new branch]      master - master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+CUsersAdminDesktopcontenidobootcampMódulo 3Ejercicio 45fullstackjavafullstackjava

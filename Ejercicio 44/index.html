@@ -11,47 +11,36 @@
 
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">  -->
     <link rel="stylesheet" href="https://unpkg.com/tableexport@5.2.0/dist/css/tableexport.min.css">
 
 
 
     <link rel="stylesheet" href="style.css">
+
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-   <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
-    <script src="https://unpkg.com/tableexport@5.2.0/dist/js/tableexport.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script> -->
     <script src="filesaver.js"></script>
 
+    <script src="tableexport.js"></script>
 
-    <script src="validador.js"></script>
-    <script src="app.js"></script>
+    <script src="exporta.js"></script>
 
 
+
+    <!--<script src="validador.js"></script>-->
+
+  
 </head>
 
 
 <body>
 
-    <table id="tabla">Tabla
-        <tr>
-            <td>Nombre</td>
-            <td>Apellidos</td>
-            <td>Correo electrónico</td>
-            <td>Edad</td>
-            <td>Teléfono</td>
-        </tr>
-
-    </table>
-
-    <button> Exportar a xls</button>
-    <button> Exportar a csv</button>
-    <button> Exportar a txt</button>
-
-    <form id = "formulario">Formulario
+    <form id="formulario" class="cmxform">Formulario
 
         <ul>
             <li>
@@ -73,22 +62,40 @@
             </li>
             <li>
                 <label for="telefono">Telefono: +56 </label>
-                <input type="tel" id="telefono" minlength="9" maxlength="9" placeholder="912345678"
-                    pattern="[0-9]{9}$" required />
+                <input type="tel" id="telefono" minlength="9" maxlength="9" placeholder="912345678" pattern="[0-9]{9}$"
+                    required />
             </li>
 
 
-            <li class="button"> 
-                <button type="submit" id = "inserta">Añadir</button>
+            <li class="button">
+                <button type="button" id="inserta">Añadir</button>
             </li>
         </ul>
 
 
     </form>
 
+    <table id="tabla">Tabla
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Correo electrónico</th>
+            <th>Edad</th>
+            <th>Teléfono</th>
+        </tr>
+
+        <tr>
+            <td>Pepe</td>
+            <td>hola</td>
+            <td>pepe@pepe.cl</td>
+            <td>87</td>
+            <td>+56 123321123</td>
+        </tr>
+</table>
+
 
 </body>
-
+<script src="app.js"></script>
 
 
 </html>

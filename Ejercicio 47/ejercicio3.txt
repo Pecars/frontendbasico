@@ -1,0 +1,343 @@
+
+C:\Users\Admin>cd desktop
+
+C:\Users\Admin\Desktop>cd contenidobootcamp
+
+C:\Users\Admin\Desktop\contenidobootcamp>cd Módulo 3
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3>cd Ejercicio 45
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 801B-B1CD
+
+ Directorio de C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45
+
+12-06-2020  20:35    <DIR>          .
+12-06-2020  20:35    <DIR>          ..
+09-06-2020  22:02           138,891 Ejercicio 45.pdf
+12-06-2020  20:36    <DIR>          fullstackjava
+               1 archivos        138,891 bytes
+               3 dirs  912,671,240,192 bytes libres
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45>cd fullstackjava
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava>cd fullstackjava
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 801B-B1CD
+
+ Directorio de C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava
+
+12-06-2020  23:11    <DIR>          .
+12-06-2020  23:11    <DIR>          ..
+12-06-2020  23:14               278 contenidos.txt
+12-06-2020  21:33             9,650 ejercicio1.txt
+12-06-2020  23:12    <DIR>          modulos
+               2 archivos          9,928 bytes
+               3 dirs  912,671,174,656 bytes libres
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>modulos
+"modulos" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava>cd modulos
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 801B-B1CD
+
+ Directorio de C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos
+
+12-06-2020  23:12    <DIR>          .
+12-06-2020  23:12    <DIR>          ..
+12-06-2020  22:32                90 modulo1.txt
+12-06-2020  23:11               114 modulo2.txt
+12-06-2020  23:12               127 modulo3.txt
+               3 archivos            331 bytes
+               2 dirs  912,670,912,512 bytes libres
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>type nul > modulo4.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 801B-B1CD
+
+ Directorio de C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos
+
+12-06-2020  23:22    <DIR>          .
+12-06-2020  23:22    <DIR>          ..
+12-06-2020  22:32                90 modulo1.txt
+12-06-2020  23:11               114 modulo2.txt
+12-06-2020  23:12               127 modulo3.txt
+12-06-2020  23:22                 0 modulo4.txt
+               4 archivos            331 bytes
+               2 dirs  912,670,060,544 bytes libres
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git commit -m "Agregada la información al módulo 4"
+[master f8045ab] Agregada la información al módulo 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fullstackjava/modulos/modulo4.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git diff
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git log
+commit f8045abffe97fa63d7c785c0ad8cb8fd2806fad8 (HEAD -> master)
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:23:49 2020 -0500
+
+    Agregada la informaci<C3><B3>n al m<C3><B3>dulo 4
+
+commit d65abb49c28cd45b9bb027c98268e57e4a9a5378
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:15:23 2020 -0500
+
+    Temario del curso completo
+
+commit d0ec8c40b969906f87a530b6b1b1fe90c49751ec
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:13:56 2020 -0500
+
+    A<C3><B1>adido el material del m<C3><B3>dulo 3
+
+commit cd0e76e0ed9ec1ec73ce04483e032e5a9bc2726a
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:12:24 2020 -0500
+
+    agregada la informaci<C3><B3>n del m<C3><B3>dulo 2
+
+commit ca34b9b6d940c3b5056a2609c9bfbb0a8684604f
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:07:31 2020 -0500
+
+    agrega archivos
+
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git branch awakers
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>cd awakers
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git show-branch
+! [awakers] Agregada la información al módulo 4
+ * [master] Agregada la información al módulo 4
+--
++* [awakers] Agregada la información al módulo 4
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git checkout awakers
+Switched to branch 'awakers'
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>type nul > lista.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git commit -m "Agregado al listado de super awakers"
+[awakers f050318] Agregado al listado de super awakers
+ 1 file changed, 4 insertions(+)
+ create mode 100644 fullstackjava/modulos/lista.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git show-branch
+* [awakers] Agregado al listado de super awakers
+ ! [master] Agregada la información al módulo 4
+--
+*  [awakers] Agregado al listado de super awakers
+*+ [master] Agregada la información al módulo 4
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git branch -v
+* awakers f050318 Agregado al listado de super awakers
+  master  f8045ab Agregada la informaci<C3><B3>n al m<C3><B3>dulo 4
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git branch master
+fatal: A branch named 'master' already exists.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git show-ref --heads -s
+f0503189deec3eff0ee92222253fb6daab839ab2
+f8045abffe97fa63d7c785c0ad8cb8fd2806fad8
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git show branch --sha1-name
+fatal: ambiguous argument 'branch': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git show branch master
+fatal: ambiguous argument 'branch': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git show-branch master
+[master] Agregada la información al módulo 4
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git merge awakers
+Already up to date.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git branch -d awakers
+error: Cannot delete branch 'awakers' checked out at 'C:/Users/Admin/Desktop/contenidobootcamp/Módulo 3/Ejercicio 45/fullstackjava'
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git branch -D awakers
+error: Cannot delete branch 'awakers' checked out at 'C:/Users/Admin/Desktop/contenidobootcamp/Módulo 3/Ejercicio 45/fullstackjava'
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git branch -D Awakers
+Deleted branch Awakers (was f050318).
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git branch awakers
+fatal: Not a valid object name: 'awakers'.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>$ git checkout -b awakers
+"$" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git checkout -b awakers
+Switched to a new branch 'awakers'
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>cat .git/HEAD
+"cat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git/head
+git: '/head' is not a git command. See 'git --help'.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git--help
+"git--help" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git show-ref
+f8045abffe97fa63d7c785c0ad8cb8fd2806fad8 refs/heads/master
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>--decorate
+"--decorate" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git --decorate
+unknown option: --decorate
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git log --oneline --decorate
+fatal: your current branch 'awakers' does not have any commits yet
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git commit -m "modificada la lista de awakers"
+[awakers (root-commit) e261ae6] modificada la lista de awakers
+ 7 files changed, 242 insertions(+)
+ create mode 100644 fullstackjava/contenidos.txt
+ create mode 100644 fullstackjava/ejercicio1.txt
+ create mode 100644 fullstackjava/modulos/lista.txt
+ create mode 100644 fullstackjava/modulos/modulo1.txt
+ create mode 100644 fullstackjava/modulos/modulo2.txt
+ create mode 100644 fullstackjava/modulos/modulo3.txt
+ create mode 100644 fullstackjava/modulos/modulo4.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git checkout master
+Switched to branch 'master'
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git log --oneline --decorate
+f8045ab (HEAD -> master) Agregada la informaci<C3><B3>n al m<C3><B3>dulo 4
+d65abb4 Temario del curso completo
+d0ec8c4 A<C3><B1>adido el material del m<C3><B3>dulo 3
+cd0e76e agregada la informaci<C3><B3>n del m<C3><B3>dulo 2
+ca34b9b agrega archivos
+a41aa4d versi<C3><B3>n actualizada del contenido
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git commit -m "agregados otros awakers"
+[master c4b7607] agregados otros awakers
+ 1 file changed, 2 insertions(+)
+ create mode 100644 fullstackjava/modulos/lista.txt
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git merge
+fatal: No remote for the current branch.
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git add .
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git commit -m "lista definitiva de awakers online"
+[master 3b51ed4] lista definitiva de awakers online
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>git log
+commit 3b51ed4949c6064f94f82c3df2049a87ad0519a8 (HEAD -> master)
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:54:38 2020 -0500
+
+    lista definitiva de awakers online
+
+commit c4b760729349470547500ba050575f88db12ae13
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:53:34 2020 -0500
+
+    agregados otros awakers
+
+commit f8045abffe97fa63d7c785c0ad8cb8fd2806fad8
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:23:49 2020 -0500
+
+    Agregada la informaci<C3><B3>n al m<C3><B3>dulo 4
+
+commit d65abb49c28cd45b9bb027c98268e57e4a9a5378
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:15:23 2020 -0500
+
+    Temario del curso completo
+
+commit d0ec8c40b969906f87a530b6b1b1fe90c49751ec
+Author: Paula <paulafullstack@gmail.com>
+Date:   Fri Jun 12 23:13:56 2020 -0500
+
+    A<C3><B1>adido el material del m<C3><B3>dulo 3
+
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>
+C:\Users\Admin\Desktop\contenidobootcamp\Módulo 3\Ejercicio 45\fullstackjava\fullstackjava\modulos>
